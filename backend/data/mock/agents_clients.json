@@ -1,0 +1,325 @@
+{
+  "agents": [
+    {
+      "agent_id": "AG001",
+      "name": "Sarah Martinez",
+      "phone": "+1-555-0101",
+      "email": "sarah.m@housewhisper.test",
+      "specialty": "Luxury Homes",
+      "clients": [
+        {
+          "client_id": "CL001-1",
+          "name": "John Davidson",
+          "phone": "+1-555-1001",
+          "email": "john.d@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Single Family",
+          "price_range": "$800k-1.2M",
+          "last_contact": "2024-03-10"
+        },
+        {
+          "client_id": "CL001-2",
+          "name": "Emma Thompson",
+          "phone": "+1-555-1002",
+          "email": "emma.t@email.test",
+          "status": "active",
+          "preference": "selling",
+          "property_type": "Condo",
+          "price_range": "$400k-600k",
+          "last_contact": "2024-03-12"
+        },
+        {
+          "client_id": "CL001-3",
+          "name": "Michael Chen",
+          "phone": "+1-555-1003",
+          "email": "michael.c@email.test",
+          "status": "follow_up",
+          "preference": "buying",
+          "property_type": "Luxury Condo",
+          "price_range": "$1M-1.5M",
+          "last_contact": "2024-03-01"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG002",
+      "name": "David Wilson",
+      "phone": "+1-555-0102",
+      "email": "david.w@housewhisper.test",
+      "specialty": "First-Time Buyers",
+      "clients": [
+        {
+          "client_id": "CL002-1",
+          "name": "Lisa Park",
+          "phone": "+1-555-2001",
+          "email": "lisa.p@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Starter Home",
+          "price_range": "$300k-450k",
+          "last_contact": "2024-03-11"
+        },
+        {
+          "client_id": "CL002-2",
+          "name": "James Wilson",
+          "phone": "+1-555-2002",
+          "email": "james.w@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Townhouse",
+          "price_range": "$350k-500k",
+          "last_contact": "2024-03-13"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG003",
+      "name": "Jennifer Lee",
+      "phone": "+1-555-0103",
+      "email": "jennifer.l@housewhisper.test",
+      "specialty": "Commercial Properties",
+      "clients": [
+        {
+          "client_id": "CL003-1",
+          "name": "Robert Smith",
+          "phone": "+1-555-3001",
+          "email": "robert.s@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Office Space",
+          "price_range": "$2M-5M",
+          "last_contact": "2024-03-09"
+        },
+        {
+          "client_id": "CL003-2",
+          "name": "Sarah Johnson",
+          "phone": "+1-555-3002",
+          "email": "sarah.j@email.test",
+          "status": "follow_up",
+          "preference": "leasing",
+          "property_type": "Retail Space",
+          "price_range": "Lease $5k-10k/month",
+          "last_contact": "2024-03-05"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG004",
+      "name": "Carlos Rodriguez",
+      "phone": "+1-555-0104",
+      "email": "carlos.r@housewhisper.test",
+      "specialty": "Urban Properties",
+      "clients": [
+        {
+          "client_id": "CL004-1",
+          "name": "Alex Kim",
+          "phone": "+1-555-4001",
+          "email": "alex.k@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Modern Loft",
+          "price_range": "$600k-900k",
+          "last_contact": "2024-03-12"
+        },
+        {
+          "client_id": "CL004-2",
+          "name": "Maria Garcia",
+          "phone": "+1-555-4002",
+          "email": "maria.g@email.test",
+          "status": "active",
+          "preference": "selling",
+          "property_type": "City Apartment",
+          "price_range": "$500k-700k",
+          "last_contact": "2024-03-10"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG005",
+      "name": "Rachel Green",
+      "phone": "+1-555-0105",
+      "email": "rachel.g@housewhisper.test",
+      "specialty": "Suburban Homes",
+      "clients": [
+        {
+          "client_id": "CL005-1",
+          "name": "Daniel Brown",
+          "phone": "+1-555-5001",
+          "email": "daniel.b@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Family Home",
+          "price_range": "$700k-1M",
+          "last_contact": "2024-03-11"
+        },
+        {
+          "client_id": "CL005-2",
+          "name": "Sophie Turner",
+          "phone": "+1-555-5002",
+          "email": "sophie.t@email.test",
+          "status": "follow_up",
+          "preference": "buying",
+          "property_type": "Ranch Style",
+          "price_range": "$600k-800k",
+          "last_contact": "2024-03-08"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG006",
+      "name": "Michael Scott",
+      "phone": "+1-555-0106",
+      "email": "michael.s@housewhisper.test",
+      "specialty": "Investment Properties",
+      "clients": [
+        {
+          "client_id": "CL006-1",
+          "name": "Kevin Zhang",
+          "phone": "+1-555-6001",
+          "email": "kevin.z@email.test",
+          "status": "active",
+          "preference": "investing",
+          "property_type": "Multi-Family",
+          "price_range": "$1.5M-3M",
+          "last_contact": "2024-03-13"
+        },
+        {
+          "client_id": "CL006-2",
+          "name": "Linda Martinez",
+          "phone": "+1-555-6002",
+          "email": "linda.m@email.test",
+          "status": "active",
+          "preference": "investing",
+          "property_type": "Duplex",
+          "price_range": "$800k-1.2M",
+          "last_contact": "2024-03-12"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG007",
+      "name": "Emily Chang",
+      "phone": "+1-555-0107",
+      "email": "emily.c@housewhisper.test",
+      "specialty": "New Constructions",
+      "clients": [
+        {
+          "client_id": "CL007-1",
+          "name": "Thomas Anderson",
+          "phone": "+1-555-7001",
+          "email": "thomas.a@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "New Construction",
+          "price_range": "$900k-1.3M",
+          "last_contact": "2024-03-10"
+        },
+        {
+          "client_id": "CL007-2",
+          "name": "Hannah Lee",
+          "phone": "+1-555-7002",
+          "email": "hannah.l@email.test",
+          "status": "follow_up",
+          "preference": "buying",
+          "property_type": "Custom Build",
+          "price_range": "$1.2M-1.8M",
+          "last_contact": "2024-03-07"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG008",
+      "name": "Andrew Taylor",
+      "phone": "+1-555-0108",
+      "email": "andrew.t@housewhisper.test",
+      "specialty": "Waterfront Properties",
+      "clients": [
+        {
+          "client_id": "CL008-1",
+          "name": "Patricia White",
+          "phone": "+1-555-8001",
+          "email": "patricia.w@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Beach House",
+          "price_range": "$2M-4M",
+          "last_contact": "2024-03-11"
+        },
+        {
+          "client_id": "CL008-2",
+          "name": "Richard Miller",
+          "phone": "+1-555-8002",
+          "email": "richard.m@email.test",
+          "status": "active",
+          "preference": "selling",
+          "property_type": "Lake House",
+          "price_range": "$1.5M-2.5M",
+          "last_contact": "2024-03-09"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG009",
+      "name": "Michelle Wong",
+      "phone": "+1-555-0109",
+      "email": "michelle.w@housewhisper.test",
+      "specialty": "Eco-Friendly Homes",
+      "clients": [
+        {
+          "client_id": "CL009-1",
+          "name": "Brian Clark",
+          "phone": "+1-555-9001",
+          "email": "brian.c@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Solar Home",
+          "price_range": "$800k-1.1M",
+          "last_contact": "2024-03-12"
+        },
+        {
+          "client_id": "CL009-2",
+          "name": "Laura Evans",
+          "phone": "+1-555-9002",
+          "email": "laura.e@email.test",
+          "status": "follow_up",
+          "preference": "buying",
+          "property_type": "Green Building",
+          "price_range": "$900k-1.4M",
+          "last_contact": "2024-03-06"
+        }
+      ]
+    },
+    {
+      "agent_id": "AG010",
+      "name": "Steven Brooks",
+      "phone": "+1-555-0110",
+      "email": "steven.b@housewhisper.test",
+      "specialty": "Historic Properties",
+      "clients": [
+        {
+          "client_id": "CL010-1",
+          "name": "Victoria Adams",
+          "phone": "+1-555-1010",
+          "email": "victoria.a@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Victorian Home",
+          "price_range": "$1.2M-2M",
+          "last_contact": "2024-03-13"
+        },
+        {
+          "client_id": "CL010-2",
+          "name": "George Hamilton",
+          "phone": "+1-555-1011",
+          "email": "george.h@email.test",
+          "status": "active",
+          "preference": "buying",
+          "property_type": "Colonial",
+          "price_range": "$1M-1.6M",
+          "last_contact": "2024-03-11"
+        }
+      ]
+    }
+  ]
+} 
